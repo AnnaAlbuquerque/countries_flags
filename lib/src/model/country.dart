@@ -9,6 +9,12 @@ class Country {
   final int pib;
   final Widget flag;
 
-  Country(this.name, this.capital, this.languages, this.area, this.population,
-      this.pib, this.flag);
+  Country(
+      {@required this.capital,
+      @required this.languages,
+      @required this.area,
+      @required this.population,
+      @required this.pib,
+      @required this.name,
+      @required this.flag});
 }
