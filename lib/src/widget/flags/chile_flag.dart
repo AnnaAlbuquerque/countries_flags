@@ -8,8 +8,15 @@ class ChileFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.3, 
-      width: MediaQuery.of(context).size.width * 0.8,   
+      height: MediaQuery.of(context).size.height * 0.3,
+      width: MediaQuery.of(context).size.width * 0.8,
+      decoration: BoxDecoration(boxShadow: [
+        BoxShadow(
+          blurRadius: 5.0,
+          spreadRadius: 4.0,
+          color: Colors.grey.shade400,
+        ),
+      ]),
       child: Column(
         children: [
           Flexible(
@@ -56,6 +63,3 @@ class ChileFlag extends StatelessWidget {
     );
   }
 }
-
-
-

@@ -8,8 +8,15 @@ class AlgeriaFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.3, 
+      height: MediaQuery.of(context).size.height * 0.3,
       width: MediaQuery.of(context).size.width * 0.8,
+      decoration: BoxDecoration(boxShadow: [
+        BoxShadow(
+          blurRadius: 5.0,
+          spreadRadius: 4.0,
+          color: Colors.grey.shade400,
+        ),
+      ]),
       child: Stack(
         children: [
           Row(
@@ -29,47 +36,45 @@ class AlgeriaFlag extends StatelessWidget {
             ],
           ),
           Align(
-            alignment: Alignment.center,
-            child: Container(
-              height: 100,
-              decoration: BoxDecoration(
-                color: Colors.red,
-                shape: BoxShape.circle,
-              ),
-            )
-          ),
-          Align(
-            alignment: Alignment(0.11 , 0.0),
-            child: Container(
-              height: 84,
-              width: 84,
-              child: ClipOval(
-                clipBehavior: Clip.hardEdge,
-                child: Row(
-                  children: [
-                    Flexible(
-                      flex: 2,
-                      child: Container(
-                        height: 90,
-                        width: 90,
-                        color: Colors.green,
-                      ),
-                    ),
-                    Flexible(
-                      flex: 4,
-                      child: Container(
-                        height: 90,
-                        width: 90,
-                        color: Colors.white,
-                      ),
-                    ),
-                  ],
+              alignment: Alignment.center,
+              child: Container(
+                height: 100,
+                decoration: BoxDecoration(
+                  color: Colors.red,
+                  shape: BoxShape.circle,
                 ),
-              ),
-            )
-          ),
+              )),
           Align(
-            alignment: Alignment(0.17 , 0.0),
+              alignment: Alignment(0.11, 0.0),
+              child: Container(
+                height: 84,
+                width: 84,
+                child: ClipOval(
+                  clipBehavior: Clip.hardEdge,
+                  child: Row(
+                    children: [
+                      Flexible(
+                        flex: 2,
+                        child: Container(
+                          height: 90,
+                          width: 90,
+                          color: Colors.green,
+                        ),
+                      ),
+                      Flexible(
+                        flex: 4,
+                        child: Container(
+                          height: 90,
+                          width: 90,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              )),
+          Align(
+            alignment: Alignment(0.17, 0.0),
             child: Transform.rotate(
               angle: 180,
               child: Icon(
