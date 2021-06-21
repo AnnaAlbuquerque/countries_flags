@@ -1,4 +1,4 @@
-# Country Flags
+# Countries Flags
 
 Small project done during Raro Academy course, as the first assignment (LevelUP1).
 
