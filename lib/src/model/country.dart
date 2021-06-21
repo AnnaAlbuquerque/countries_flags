@@ -3,14 +3,16 @@ import 'package:flutter/cupertino.dart';
 class Country {
   final String name;
   final String capital;
-  final List<String> languages;
-  final int area;
-  final int population;
-  final int pib;
+  final String region;
+  final String languages;
+  final String area;
+  final String population;
+  final String pib;
   final Widget flag;
 
   Country(
       {@required this.capital,
+      @required this.region,
       @required this.languages,
       @required this.area,
       @required this.population,
