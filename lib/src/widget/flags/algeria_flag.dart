@@ -8,8 +8,8 @@ class AlgeriaFlag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.3,
-      width: MediaQuery.of(context).size.width * 0.8,
+      height: 200,
+      width: 450,
       decoration: BoxDecoration(boxShadow: [
         BoxShadow(
           blurRadius: 5.0,

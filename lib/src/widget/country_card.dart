@@ -13,7 +13,10 @@ class CountryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      margin: const EdgeInsets.fromLTRB(10, 40, 10, 40),
+      margin: const EdgeInsets.symmetric(
+        horizontal: 3,
+        vertical: 40,
+      ),
       shape: RoundedRectangleBorder(
         borderRadius: const BorderRadius.all(Radius.circular(15.0)),
       ),
@@ -41,7 +44,7 @@ class CountryCard extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0.0),
+            padding: const EdgeInsets.fromLTRB(15.0, 10.0, 15.0, 0.0),
             child: country.flag,
           ),
           Padding(
