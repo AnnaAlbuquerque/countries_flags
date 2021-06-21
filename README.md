@@ -1,16 +1,26 @@
-# country_flags
+# Country Flags
 
-A new Flutter project.
+Small project done during Raro Academy course, as the first assignment.
 
-## Getting Started
+## About the application
 
-This project is a starting point for a Flutter application.
+This project consists of a country cards, that has countries information, such as: name, region, flag, capital, languages and so on.
 
-A few resources to get you started if this is your first Flutter project:
+<img src="./images/tela.png" height = "500">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+</br>
+All the flags in the application where done with code.
+</br>
+This application were tested only on Android.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## To Do
+- [ ] Add more flags
+- [ ] Test on iOS devices
+
+
+## Extra Information
+
+- The layout was inspired by the template made by [Anuar Bolatov](https://dribbble.com/bolatov) and available at [dribble](https://dribbble.com/shots/11569151-Electric-cars).
+- Countries flags and information get at [biblioteca.ibge](https://biblioteca.ibge.gov.br/visualizacao/livros/liv44152_cap5.pdf)
+
+
